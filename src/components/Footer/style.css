@@ -1,0 +1,58 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url('./assets/fundo.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: blue;
+    height: 100%;
+    color: #fff;
+    padding: 20px;
+}
+.footer p a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.footer .footer__socials{
+    display: flex;
+    justify-content: space-around;
+    gap: 16px;
+}
+.footer .footer__socials a:nth-of-type(1){
+    background-image: url('./assets/fb.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.footer .footer__socials a:nth-of-type(2){
+    background-image: url('./assets/ig.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+.footer .footer__socials a:nth-of-type(3){
+    background-image: url('./assets/tw.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 25px;
+    height: 25px;
+}
+
+.footer .footer__h3{
+    background-image: url('./assets/Vector.svg');
+    background-position: left 10px center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-left: 30px; /* Espaçamento à esquerda para evitar que o texto sobreponha o ícone */
+    font-size: 25px;
+    font-weight: 600;
+    background-color: transparent; 
+}

@@ -1,0 +1,19 @@
+.game {
+    text-align: center;
+    padding: 32px;
+}
+
+.game h3{
+    font-size: 32px;
+    border-bottom: 4px solid;
+    display: inline-block;
+    padding-bottom: 8px;
+}
+
+.game .game__container-of-players{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 32px;
+    flex-wrap: wrap;
+    gap: 16px 0px;
+}

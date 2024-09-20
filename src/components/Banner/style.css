@@ -1,0 +1,24 @@
+.banner{
+    background-image: url('./assets/banner.png');
+    text-align: center;
+    height: 300px; 
+    background-size: cover; 
+    background-position: top;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.banner__content{
+    display: flex;
+    align-items: center;
+}
+.banner__logo{
+    max-width: 50px;
+    padding-left: 30px;
+}
+.banner__title{
+    font-size: 3em;
+    color: #fff;
+
+}
